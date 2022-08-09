@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.card {
+    padding: 40px;
+    display: flex;
+}
+.card > img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.card--content {
+    margin-left: 19px;
+}
