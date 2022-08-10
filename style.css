@@ -2,9 +2,31 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+.header {
+    background-color: #FF6633;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 60px;
+    margin: -10px -50vw 0;
+    position: relative;
+    left: 50%;
+    color: white;
+}
+.header > img {
+    width: 48px;
+    height: 24px;
+}
 .card {
     padding: 40px;
     display: flex;
+    border-bottom: 1px solid #F5F5F5;
+    width: 90%;
+    margin: auto;
 }
 .card > img {
     width: 125px;
@@ -14,4 +36,36 @@
 }
 .card--content {
     margin-left: 19px;
+    max-width: 330px;
+    font-size: 12px;
+}
+.card--content > h1 {
+    margin: 4px 0 0;
+    font-size: 25px;
+}
+.card--content > p {
+    font-size: 12px;
+}
+.card--link {
+    color: #918E9B;
+    font-size: 10.24px;
+    line-height: 12px;
+}
+.card--location {
+    color: #2B283A;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    margin-left: 4px;
+}
+.card--dates {
+    font-weight: 700;
+    margin-top: 20px;
+}
+.card--description {
+    font-weight: 400;
+    color: #505050;
+}
+.card--pin {
+    /* FIX THIS FOR PIN TO BE SLIGHTLY LOWER */
 }
